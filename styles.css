@@ -15,10 +15,23 @@ nav {
     height: 100px;
     position: fixed;
     z-index: 100;
-    background: transparent;
+    background: #ffffff09;
     padding: 0rem calc((100vw - 1400px) / 2);
 }
 
 .logo{
     margin-left: 2rem;
+}
+
+.nav-links {
+    margin-right: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: azure;
+}
+
+.hero {
+    background: #0f0f10;
 }
