@@ -5,89 +5,83 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+
+    background: transparent;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header{
     width: 100%;
-    height: 10%;
-    position: fixed;
-    z-index: 100;
-    background: #ffffff09;
-    padding: 0rem calc((100vw - 1400px) / 2);
-
-    overflow-y: hidden;
-}
-
-/*For the logo  (in top left)*/
-nav img{
-    width: 3.5em;
-}
-
-.logo{
-    margin-left: 2rem;
-}
-
-
-.nav-links {
-    margin-right: 2rem;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: azure;
-}
-
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-    align-items: center;
-    padding: 1rem calc((120vw - 1400px) / 2);
-
-    overflow-x: hidden;
+    height: 50vh;
     position: relative;
-
-    color: azure;
-    background: #0a090d;
+    overflow: hidden;
 }
 
-.hero h1{
-    padding-bottom: 1rem;
-    font-size: clamp(1rem, 6vw, 3rem);
-    color: rgb(134, 118, 255);
-}
-
-.hero p{
-    font-size: clamp(1rem, 2vw, 2rem);
-    color: azure;
-}
-
-.left-column{
-    border: red  1px solid;
-
-    margin-left: 2vw;
-    margin-right: 2vw;
-    max-width: 100vw;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 780px;
-    position: relative;
-}
-
-.right-column{
-   border: green 1px solid;
-}
-
-.right-column img{
-    width: 80%;
-    max-width: 400px;
+.mountains1{
     position: absolute;
-    top: 100px;
-    right: -90px;
+
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+
+    z-index: 20;
+}
+
+.mountains2{
+    position: absolute;
+    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 19;
+}
+
+.mountains3{
+    position: absolute;
+    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 18;
+}
+
+.mountains4{
+    position: absolute;
+    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 17;
+}
+
+.mountains5{
+    position: absolute;
+    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 16;
+}
+
+.moonAndClouds{
+    position: absolute;
+    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 15;
+}
+
+.background{
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 14;
 }
