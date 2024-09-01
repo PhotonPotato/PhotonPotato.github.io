@@ -11,17 +11,24 @@
 
 header{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     overflow: hidden;
+}
+
+.centered-image{
+    bottom: 0px;
 }
 
 header::after{
     content: '';
     position: absolute;
-    
-    width: 100%;
-    height: 100%;
+
 
     left: 0;
     top: 0;
@@ -38,8 +45,6 @@ nav .container{
     max-width: 70rem;
     padding: 0rem;
     margin: 0 auto;
-    
-    border: red 1px solid;
 }
 
 .logo{
@@ -106,8 +111,10 @@ nav{
     
     line-height: 4rem;
 
-    top: calc(50% - 2rem);
+    top: calc(40% - 2rem);
     text-align: center;
+
+    text-shadow: 2rem;
 
     font-size: 3rem;
     font-weight: 900;
@@ -118,78 +125,50 @@ nav{
 
 .mountains1{
     position: absolute;
-
-    bottom: 0px;
-    right: 0;
-    width: 100%;
-
+    height: 100vh;
     z-index: 20;
 }
 
 .mountains2{
     position: absolute;
-    
-    bottom: 0;
-    right: 0;
-    width: 100%;
-
+    height: 100vh;
     z-index: 19;
 }
 
 .mountains3{
     position: absolute;
-    
-    bottom: 0;
-    right: 0;
-    width: 100%;
-
+    height: 100vh;
     z-index: 18;
 }
 
 .mountains4{
     position: absolute;
-    
-    bottom: 0;
-    right: 0;
-    width: 100%;
-
+    height: 120vh;
     z-index: 17;
 }
 
 .mountains5{
     position: absolute;
-    
-    bottom: 0;
-    right: 0;
-    width: 100%;
-
+    height: 100vh;
     z-index: 16;
 }
 
 .moonAndClouds{
     position: absolute;
-    
-    bottom: 0;
-    right: 0;
-    width: 100%;
-
+    height: 100vh;
     z-index: 15;
 }
 
 .background{
     position: absolute;
-
-    bottom: 0;
-    right: 0;
-    width: 100%;
-
+    height: 100vh;
     z-index: 14;
 }
 
 .shadow{
     position: absolute;
     bottom: 100%;
-    height: 100px;
+    height: 150px;
     width: 100%;
     left: 0;
     z-index: 20;
