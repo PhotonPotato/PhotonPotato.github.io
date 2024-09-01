@@ -43,7 +43,9 @@ nav .container{
     align-items: center;
 
     max-width: 70rem;
-    padding: 0rem;
+    padding: 0 rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin: 0 auto;
 }
 
@@ -183,11 +185,13 @@ section{
 
 section .container{
     padding: 3rem;
+    top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 70vh;
+    border: red solid 2px;
 }
 
 section .title{
@@ -196,6 +200,40 @@ section .title{
     color: white;
 }
 
-section .text{
-    color: gray;
+section .title-text-divider{
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: -2px;
 }
+
+section .text{
+    color: rgb(199, 199, 199);
+}
+
+.profile-photo-mask{
+    
+    -webkit-mask: url(/assets/WhiteElipse.png);
+    mask-image: url(/assets/WhiteElipse.png);
+    mask-repeat: no-repeat;
+    mask-border: red solid 9px;
+    mask-position: 50%;
+    mask-size: 80%;
+
+    width: 100%;
+    height: 35vh;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: green 1px solid;
+
+}
+
+.profile-photo-mask img{
+    width: 100%;
+    height: auto;
+}
+
