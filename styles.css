@@ -184,14 +184,15 @@ section{
 }
 
 section .container{
-    padding: 3rem;
+    padding: 10rem;
+    width: 100%;
     top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: center;
     min-height: 70vh;
-    border: red solid 2px;
 }
 
 section .title{
@@ -213,27 +214,35 @@ section .text{
     color: rgb(199, 199, 199);
 }
 
+section .reorder-for-screen-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .profile-photo-mask{
-    
+    overflow: hidden;
     -webkit-mask: url(/assets/WhiteElipse.png);
     mask-image: url(/assets/WhiteElipse.png);
     mask-repeat: no-repeat;
-    mask-border: red solid 9px;
     mask-position: 50%;
-    mask-size: 80%;
+    mask-size: 18em;
 
-    width: 100%;
+    width: 19em;
     height: 35vh;
     min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: green 1px solid;
-
 }
 
 .profile-photo-mask img{
-    width: 100%;
+    position: relative;
+    top: 9em;
+    right: 3em;
+    width: 25em;
     height: auto;
 }
+
 
