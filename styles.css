@@ -177,13 +177,13 @@ nav{
     background: linear-gradient(to top, black, transparent);
 }
 
-section{
+.about-section{
     width: 100%;
     background-color: black;
     position: relative;
 }
 
-section .container{
+.about-section .container{
     padding: 10rem;
     width: 100%;
     top: 100px;
@@ -195,13 +195,13 @@ section .container{
     min-height: 70vh;
 }
 
-section .title{
+.about-section .title{
     font-size: 3rem;
     font-weight: 700;
     color: white;
 }
 
-section .title-text-divider{
+.about-section .title-text-divider{
     position: relative;
     width: 100%;
     height: 3px;
@@ -210,7 +210,7 @@ section .title-text-divider{
     margin-left: -2px;
 }
 
-section .text{
+.about-section .text{
     color: rgb(199, 199, 199);
 }
 
@@ -222,8 +222,8 @@ section .reorder-for-screen-size{
 
 .profile-photo-mask{
     overflow: hidden;
-    -webkit-mask: url(/assets/WhiteElipse.png);
-    mask-image: url(/assets/WhiteElipse.png);
+    -webkit-mask: url(/assets/AboutPage//WhiteElipse.png);
+    mask-image: url(/assets/AboutPage/WhiteElipse.png);
     mask-repeat: no-repeat;
     mask-position: 50%;
     mask-size: 18em;
@@ -245,4 +245,62 @@ section .reorder-for-screen-size{
     height: auto;
 }
 
+.purple-shadow{
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to bottom, black, #1b004d);
+}
 
+.portfolio-section{
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: #1b004d;
+}
+
+.portfolio-grid-container{
+    margin-top: 50px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    background-color: transparent;
+    display: grid;
+
+    grid-template-columns: auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.portfolio-item{
+    border-radius: 25px;
+    background-color: #0d0220;
+
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+}
+
+.portfolio-item .title{
+    font-size: 2rem;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+    color: white;
+}
+
+.portfolio-item img{
+    border: rgb(60, 60, 60) solid 3px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.portfolio-item .text{
+    margin-top: 20px;
+    
+    color: rgb(199, 199, 199);
+    text-align: center;
+}

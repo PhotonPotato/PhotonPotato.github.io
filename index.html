@@ -20,19 +20,19 @@
 
       <h1 class="big-title">Hi, I'm Ty. This is Me.</h1>
 
-      <img src="/assets/Mountains1.png" class="mountains1 translate centered-image" data-speed="-0.1" alt="mountains1">
-      <img src="/assets/Mountains2.png" class="mountains2 translate centered-image" data-speed="0.1" alt="mountains2">
-      <img src="/assets/Mountains3.png" class="mountains3 translate centered-image" data-speed="0.2" alt="mountains3">
-      <img src="/assets/Mountains4.png" class="mountains4 translate centered-image" data-speed="0.3" alt="mountains4">
-      <img src="/assets/Mountains5.png" class="mountains5 translate centered-image" data-speed="0.4" alt="mountains5">
-      <img src="/assets/BackMoonClouds.png" class="moonAndClouds translate centered-image" data-speed="0.5" alt="moonAndClouds">
-      <img src="/assets/Background.png" class="background centered-image" alt="background">
+      <img src="/assets/TitleParallax/Mountains1.png" class="mountains1 translate centered-image" data-speed="-0.1" alt="mountains1">
+      <img src="/assets/TitleParallax/Mountains2.png" class="mountains2 translate centered-image" data-speed="0.1" alt="mountains2">
+      <img src="/assets/TitleParallax/Mountains3.png" class="mountains3 translate centered-image" data-speed="0.2" alt="mountains3">
+      <img src="/assets/TitleParallax/Mountains4.png" class="mountains4 translate centered-image" data-speed="0.3" alt="mountains4">
+      <img src="/assets/TitleParallax/Mountains5.png" class="mountains5 translate centered-image" data-speed="0.4" alt="mountains5">
+      <img src="/assets/TitleParallax/BackMoonClouds.png" class="moonAndClouds translate centered-image" data-speed="0.5" alt="moonAndClouds">
+      <img src="/assets/TitleParallax/Background.png" class="background centered-image" alt="background">
     </header>
 
-    <section>
+    <section class="about-section">
       <div class="shadow"></div>
 
-      <div class="container grid-template-based-on-screen-size"> 
+      <div class="container about-grid-template-based-on-screen-size"> 
         <div class="content">
           <h3 class="title">About</h3>
           <div class="title-text-divider"></div>
@@ -44,7 +44,7 @@
 
         <div style="width: 100%;" class="reorder-for-screen-size">
           <div class="profile-photo-mask">
-            <img src="/assets/pfp.jpg" alt="">
+            <img src="/assets/AboutPage/pfp.jpg" alt="">
           </div>
         </div>
 
@@ -52,6 +52,45 @@
 
     </section>
 
-    <script src="app.js"> </script>
+    <!-- This is the start to the portfolio section-->
+    <section class="portfolio-section">
+      <div class="purple-shadow"></div>
+        <div class="portfolio-grid-container">
+          <div class="portfolio-item">
+            <h3 class="title">My asdsWebsite</h3>
+            <img src="/assets/PortfolioImages/WebsiteTempImg.png" alt="Portfolio Item Gif">
+            <p class="text">
+              This website is my first experience learning and using HTML, CSS, and JS.
+              It is written raw without any front-end toolkits (like bootstrap) which might change soon.
+              All of the art is made in Photoshop by me.
+              My favorite color is purple in case you haven't alreaddy guessed.
+
+              <br/><br/>
+
+              Here's a <a href="https://github.com/PhotonPotato/PhotonPotato.github.io" target="_blank" rel="noopener noreferer" style="color: rgb(0, 187, 255);">link</a> to the repo.
+            </p>
+          </div>
+
+          <div class="portfolio-item">
+            <h3 class="title">Portfolio Item</h3>
+            <img src="/" alt="Portfolio Item Gif">
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quaerat repellat excepturi illo dolorem pariatur voluptatem fugiat nam assumenda a dignissimos perferendis labore reiciendis nostrum commodi omnis. Asperiores, pariatur culpa.</p>
+          </div>
+
+          <div class="portfolio-item">
+            <h3 class="title">Portfolio Item</h3>
+            <img src="/" alt="Portfolio Item Gif">
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quaerat repellat excepturi illo dolorem pariatur voluptatem fugiat nam assumenda a dignissimos perferendis labore reiciendis nostrum commodi omnis. Asperiores, pariatur culpa.</p>
+          </div>
+
+          <div class="portfolio-item">
+            <h3 class="title">Portfolio Item</h3>
+            <img src="/" alt="Portfolio Item Gif">
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quaerat repellat excepturi illo dolorem pariatur voluptatem fugiat nam assumenda a dignissimos perferendis labore reiciendis nostrum commodi omnis. Asperiores, pariatur culpa.</p>
+          </div>
+        </div>
+    </section>
+
+    <script src="index.js"> </script>
   </body>
 </html>
